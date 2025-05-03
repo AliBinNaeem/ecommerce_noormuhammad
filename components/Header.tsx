@@ -28,6 +28,9 @@ const Header = () => {
           {/* right */}
           <SearchBar/>
           <CartIcon/>
+          <div className='text-sm font-semibold hover:text-darkcolor hoverEffect'>
+            Login
+          </div>
         </div>
      </Container>
         {/* Right bar */} 
