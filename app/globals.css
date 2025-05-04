@@ -1,5 +1,8 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import "tailwindcss";
+@import "tw-animate-css"; */
 /* 
 ---break--- */
 @custom-variant dark (&:is(.dark *));
@@ -151,4 +154,13 @@ body {
   .hoverEffect{
     @apply transition-all ease-in-out duration-300 cursor-pointer;
   }
+}
+
+/* Our font setups */
+:root{
+  --font-raleway: 'Raleway',sans-serif;
+}
+body{
+  font-family: var(--font-raleway);
+  /* https://youtu.be/3hepJA56KF8?t=6341 */
 }

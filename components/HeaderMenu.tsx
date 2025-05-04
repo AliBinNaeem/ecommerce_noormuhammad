@@ -2,13 +2,13 @@
 import { headerData } from '@/constants'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation';
-import React, { use } from 'react'
+
 
 const HeaderMenu = () => {
   const pathname = usePathname(); 
   console.log(pathname); // / , /about, /contact
   return (
-    <div 
+    <div  
     className='hidden md:inline-flex w-1/3 items-center gap-5 text-sm capitalize text-lightColor' 
     >
       {/* https://youtu.be/3hepJA56KF8?t=3227 */}
