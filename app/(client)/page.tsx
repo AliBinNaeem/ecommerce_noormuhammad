@@ -19,3 +19,5 @@ export default function Home() {
 // https://youtu.be/3hepJA56KF8?t=7917 social link
 // https://youtu.be/3hepJA56KF8?t=8139 Side bar finish
 // https://youtu.be/3hepJA56KF8?t=8493 click outside in siebar
+
+// https://youtu.be/3hepJA56KF8?t=9477 sanity contol panel
