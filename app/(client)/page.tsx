@@ -21,3 +21,6 @@ export default function Home() {
 // https://youtu.be/3hepJA56KF8?t=8493 click outside in siebar
 
 // https://youtu.be/3hepJA56KF8?t=9477 sanity contol panel
+// https://youtu.be/3hepJA56KF8?t=9710 Sanity add image field
+// https://youtu.be/3hepJA56KF8?t=10077
+// https://youtu.be/3hepJA56KF8?t=10152
