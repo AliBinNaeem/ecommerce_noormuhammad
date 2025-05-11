@@ -1,5 +1,6 @@
 import Container from "@/components/Container";
 import HomeBanner from "@/components/HomeBanner";
+import ProductGrid from "@/components/ProductGrid";
 import { Button } from "@/components/ui/button";
 
 
@@ -8,6 +9,7 @@ export default function Home() {
 <div > 
  <Container className="py-10">
 <HomeBanner/>
+<ProductGrid/>  
  </Container>
 </div>
   );
@@ -24,3 +26,9 @@ export default function Home() {
 // https://youtu.be/3hepJA56KF8?t=9710 Sanity add image field
 // https://youtu.be/3hepJA56KF8?t=10077
 // https://youtu.be/3hepJA56KF8?t=10152
+
+// https://youtu.be/3hepJA56KF8?t=9905 declear product
+// https://youtu.be/3hepJA56KF8?t=10961 /// adding product
+// https://youtu.be/3hepJA56KF8?t=11108 project id change
+
+//https://youtu.be/3hepJA56KF8?t=11688
