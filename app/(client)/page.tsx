@@ -32,3 +32,20 @@ export default function Home() {
 // https://youtu.be/3hepJA56KF8?t=11108 project id change
 
 //https://youtu.be/3hepJA56KF8?t=11688
+
+//https://youtu.be/3hepJA56KF8?t=11866 set default link active
+
+// https://youtu.be/3hepJA56KF8?t=12358 // error
+
+// https://youtu.be/3hepJA56KF8?t=13518
+
+// https://youtu.be/3hepJA56KF8?t=13691
+
+// https://youtu.be/3hepJA56KF8?t=13898
+
+// https://youtu.be/3hepJA56KF8?t=14160 pictures not loading
+
+// npm run typegen
+//  /https://youtu.be/3hepJA56KF8?t=12643
+
+// https://youtu.be/3hepJA56KF8?t=14992
