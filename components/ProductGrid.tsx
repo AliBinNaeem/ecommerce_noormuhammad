@@ -57,10 +57,18 @@ const ProductGrid = () => {
                 {" "}
                 {/* https://youtu.be/3hepJA56KF8?t=13053 */}
                 {products?.map((product: Product) => (
-                  <div key={product?._id}>
-                    <ProductCard product={product} />
-                    {/* <p>{product?.name}</p> */}
-                  </div>
+                  <AnimatePresence key={product?._id}>
+                    {/* https://youtu.be/3hepJA56KF8?t=16289 */}
+                    <motion.div
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 1 }}
+                    >
+                      <ProductCard product={product} />
+                      {/* <p>{product?.name}</p> */}
+                    </motion.div>
+                  </AnimatePresence>
                 ))}
               </div>
             ) : (

@@ -2,7 +2,7 @@ import { Product } from "@/sanity.types";
 import React from "react";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
-import QantityButtons from "./QantityButtons";
+import QantityButtons from "./QuantityButtons";
 import PriceFormatter from "./PriceFormatter";
 interface Props {
   product: Product;
@@ -11,16 +11,20 @@ interface Props {
 const AddToCartButton = ({ product, className }: Props) => {
   // check if stock is available
   const isOutOfStock = product?.stock === 0;
-  const itemCount = 4;
+  const itemCount = 0;
   return (
-    <div>
+    <div 
+    className="w-full"
+    // https://youtu.be/3hepJA56KF8?t=20246
+    >
+
       {itemCount > 1 ? (
-        <div className="w-full text-sm">
+        <div className="w-full text-xs">
           <div className="flex items-center justify-between">
             <span className="text-xs text-muted-foreground">Quantity</span>
             <QantityButtons product={product} />
           </div>
-          <div className="flex items-center justify-between border border-t pt-1`">
+          <div className="flex items-center justify-between border border-t pt-1 ">
             <apan className="text-xs font-semibold">Subtotal</apan>
           <PriceFormatter amount={itemCount * product?.price} />
             </div>

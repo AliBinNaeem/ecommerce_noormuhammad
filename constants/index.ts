@@ -17,3 +17,15 @@ export const headerData = [
     {title:'short', value:'short'},
 
 ];
+
+// https://youtu.be/3hepJA56KF8?t=17568
+export const quickLinkData = [
+  { title: "About Us", href: "/about" },
+  { title: "Contact Us", href: "/contact" },
+  { title: "Privacy Policy", href: "/privacy" },
+    { title: "Terms of Service", href: "/terms" },
+    { title: "FAQ", href: "/faq" },
+    { title: "Blog", href: "/blog" },
+    { title: "Careers", href: "/careers" },
+    { title: "Support", href: "/support" },
+];

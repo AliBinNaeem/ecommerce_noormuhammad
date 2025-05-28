@@ -50,3 +50,12 @@ export default function Home() {
 
 // https://youtu.be/3hepJA56KF8?t=14992
 // https://youtu.be/3hepJA56KF8?t=15951
+
+// https://youtu.be/3hepJA56KF8?t=16832
+
+// https://youtu.be/3hepJA56KF8?t=17568
+
+// https://youtu.be/3hepJA56KF8?t=19401
+
+// https://youtu.be/3hepJA56KF8?t=21529 seach && <x ... 
+// https://youtu.be/3hepJA56KF8?t=22228
